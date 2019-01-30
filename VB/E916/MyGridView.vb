@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports DevExpress.XtraGrid
+﻿Imports DevExpress.XtraGrid
 Imports DevExpress.XtraGrid.Views.Grid
 Imports DevExpress.XtraGrid.Registrator
 Imports DevExpress.XtraGrid.Views.Base
@@ -10,6 +9,7 @@ Imports DevExpress.Data
 Namespace DXSample
 	Public Class MyGridControl
 		Inherits GridControl
+
 		Public Sub New()
 			MyBase.New()
 		End Sub
@@ -22,6 +22,7 @@ Namespace DXSample
 
 	Public Class MyGridView
 		Inherits GridView
+
 		Public Sub New()
 			MyBase.New()
 		End Sub
@@ -83,6 +84,7 @@ Namespace DXSample
 
 	Public Class MyGridViewInfoRegistrator
 		Inherits GridInfoRegistrator
+
 		Public Sub New()
 			MyBase.New()
 		End Sub
